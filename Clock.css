@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding:0;
+
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: bold 12px Arial,Helvetica, sans-serif;
+    background-color: white;
+}
+.clock{
+    border: 5px solid red;
+    color: red;
+    padding: 40px;
+    border-radius: 20px;
+    background-color: black;
+    box-shadow: 40px 15px 15px   grey;
+    
+
+    
+}
+#Date{
+    font-size: 40px !important;
+    text-align: center;
+    
+}
+.clock ul{
+    list-style: none;
+    display: flex;
+    font-size: 90px;
+    gap: 15px;
+}
